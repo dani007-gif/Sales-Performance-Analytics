@@ -1,0 +1,10 @@
+2026-03-23 19:03:57,802 | INFO | Loaded 5000 rows; 3954 completed orders
+2026-03-23 19:03:58,208 | INFO | Chart 1 saved: monthly trend
+2026-03-23 19:03:58,425 | INFO | Chart 2 saved: revenue by region
+2026-03-23 19:03:58,554 | INFO | Chart 3 saved: category donut
+2026-03-23 19:03:58,843 | INFO | Chart 4 saved: sales rep performance
+2026-03-23 19:03:59,049 | INFO | Chart 5 saved: margin distribution
+2026-03-23 19:03:59,246 | INFO | Chart 6 saved: quarterly growth
+2026-03-23 19:03:59,521 | INFO | Chart 7 saved: channel×category heatmap
+2026-03-23 19:03:59,698 | INFO | Chart 8 saved: order status
+2026-03-23 19:03:59,698 | INFO | All 8 charts generated in ../python/charts/

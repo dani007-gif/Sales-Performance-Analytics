@@ -1,0 +1,6 @@
+2026-03-23 19:05:03,465 | INFO | Sheet 'Executive Dashboard' created
+2026-03-23 19:05:03,940 | INFO | Sheet 'Raw Data' created (500 rows sample)
+2026-03-23 19:05:03,944 | INFO | Sheet 'Category Analysis' created
+2026-03-23 19:05:03,951 | INFO | Sheet 'Rep Leaderboard' created
+2026-03-23 19:05:03,954 | INFO | Sheet 'Channel Analysis' created
+2026-03-23 19:05:04,100 | INFO | Excel report saved → ../excel/Sales_Performance_Report.xlsx

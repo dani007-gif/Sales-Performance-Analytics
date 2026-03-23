@@ -1,0 +1,12 @@
+2026-03-23 19:02:45,527 | INFO | Generating 5000 sales records …
+2026-03-23 19:02:45,707 | INFO | Saved raw CSV  → ../data/sales_raw.csv  (5000 rows × 19 cols)
+2026-03-23 19:02:45,709 | INFO | Saved schema   → ../data/schema.json
+2026-03-23 19:02:45,710 | INFO | Date range     : 2022-01-01 → 2024-12-31
+2026-03-23 19:02:45,714 | INFO | Avg margin     : 52.6%
+2026-03-23 19:02:45,716 | INFO | Status counts  :
+status
+Completed    3954
+Pending       476
+Cancelled     341
+Returned      229
+2026-03-23 19:02:45,716 | INFO | DONE — data generation complete.

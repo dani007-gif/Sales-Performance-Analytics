@@ -1,0 +1,12 @@
+2026-03-23 19:03:11,455 | INFO | Loaded 5000 rows into SQLite table 'sales'
+2026-03-23 19:03:11,460 | INFO | Query 01_revenue_by_year                  → 3 rows saved to ../data/sql_results/01_revenue_by_year.csv
+2026-03-23 19:03:11,463 | INFO | Query 02_revenue_by_region                → 5 rows saved to ../data/sql_results/02_revenue_by_region.csv
+2026-03-23 19:03:11,466 | INFO | Query 03_revenue_by_category              → 5 rows saved to ../data/sql_results/03_revenue_by_category.csv
+2026-03-23 19:03:11,469 | INFO | Query 04_top10_products                   → 10 rows saved to ../data/sql_results/04_top10_products.csv
+2026-03-23 19:03:11,472 | INFO | Query 05_sales_rep_performance            → 10 rows saved to ../data/sql_results/05_sales_rep_performance.csv
+2026-03-23 19:03:11,476 | INFO | Query 06_monthly_trend                    → 36 rows saved to ../data/sql_results/06_monthly_trend.csv
+2026-03-23 19:03:11,479 | INFO | Query 07_channel_analysis                 → 4 rows saved to ../data/sql_results/07_channel_analysis.csv
+2026-03-23 19:03:11,482 | INFO | Query 08_order_status_summary             → 4 rows saved to ../data/sql_results/08_order_status_summary.csv
+2026-03-23 19:03:11,487 | INFO | Query 09_quarterly_growth                 → 12 rows saved to ../data/sql_results/09_quarterly_growth.csv
+2026-03-23 19:03:11,496 | INFO | Query 10_high_value_orders                → 20 rows saved to ../data/sql_results/10_high_value_orders.csv
+2026-03-23 19:03:11,497 | INFO | All SQL queries complete. Results in ../data/sql_results/
