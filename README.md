@@ -195,6 +195,17 @@ The `powerbi/PowerBI_Setup_DAX_Guide.md` contains:
 
 ---
 
+## 💻 Languages Used
+
+| Language   | Percentage |
+|------------|-----------|
+| Python     | 60%       |
+| SQL        | 25%       |
+| HTML       | 10%       |
+| Markdown   | 5%        |
+
+---
+
 ## 📋 Requirements
 
 ```
