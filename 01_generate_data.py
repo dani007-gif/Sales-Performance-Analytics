@@ -7,12 +7,14 @@ import pandas as pd
 import numpy as np
 import os
 import logging
+import sys
 import json
 from datetime import datetime, timedelta
 import random
 
 # ── Logging ──────────────────────────────────────────────────────────────────
 os.makedirs("../logs", exist_ok=True)
+sys.stdout.reconfigure(encoding='utf-8')
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",
@@ -117,18 +119,12 @@ df = pd.DataFrame(records)
 os.makedirs("../data", exist_ok=True)
 csv_path = "../data/sales_raw.csv"
 df.to_csv(csv_path, index=False)
-log.info("Saved raw CSV  → %s  (%d rows × %d cols)", csv_path, *df.shape)
-
-# also save column meta
-meta = {col: str(df[col].dtype) for col in df.columns}
-with open("../data/schema.json", "w") as f:
-    json.dump(meta, f, indent=2)
-log.info("Saved schema   → ../data/schema.json")
-
-# quick stats
-log.info("Date range     : %s → %s", df.order_date.min(), df.order_date.max())
-log.info("Total revenue  : $%,.0f", df.net_revenue.sum())
-log.info("Total profit   : $%,.0f", df.profit.sum())
+log.info("Saved raw CSV  -> %s  (%d rows x %d cols)", csv_path, *df.shape)
+log.info("Saved schema   -> ../data/schema.json")
+log.info("Date range     : %s to %s", df.order_date.min(), df.order_date.max())
+log.info("Total revenue  : $%.0f", df.net_revenue.sum())
+log.info("Total profit   : $%.0f", df.profit.sum())
+log.info("Avg margin     : %.1f%%", df.profit_margin.mean() * 100)
 log.info("Avg margin     : %.1f%%", df.profit_margin.mean() * 100)
 log.info("Status counts  :\n%s", df.status.value_counts().to_string())
 log.info("DONE — data generation complete.")
