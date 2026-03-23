@@ -1,4 +1,5 @@
 # 📊 Sales Performance Analytics Project
+End-to-end sales analytics project built with SQL, Python, Excel & Power BI. Covers data generation, EDA, 17 SQL queries, 8 visualizations, and a multi-sheet Excel report across 5,000 orders and 3 years of sales data.
 
 > **End-to-end sales analytics pipeline using SQL · Python · Excel · Power BI**  
 > Dataset: 5,000 orders · 2022–2024 · 10 Sales Reps · 5 Regions · 5 Categories
